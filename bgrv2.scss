@@ -1,0 +1,242 @@
+$color-background: #161618;
+$scrollbar-background: #222222;
+$color-text: white;
+$color-highlighted: #ee4d2e;
+$color-border: darkgray;
+
+.bgr__wrapper {
+  background-color: $color-background;
+  color: $color-text;
+  margin: -8px;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  overflow: hidden;
+  font-family: Arial, serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $scrollbar-background;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $color-highlighted;
+    border-radius: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .bgr__searchbar {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+
+    span {
+      height: 30px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      font-size: 19px;
+      color: $color-text;
+      background-color: $color-highlighted;
+      margin-right: -5px;
+      border-color: $color-highlighted;
+      display: inline-block;
+      aspect-ratio: 1/1;
+      text-align: center;
+    }
+
+    input {
+      height: 25px;
+      font-size: 20px;
+
+      &[type="text"] {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 10px;
+
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .bgr__copy__notification {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 20px 20px;
+    border: solid $color-highlighted 1px;
+    border-radius: 20px;
+    background: $color-highlighted;
+    color: $color-background;
+    font-weight: bold;
+    transition: top ease-in-out 0.2s;
+  }
+
+  .bgr__unselect {
+    border: solid 2px $color-border;
+    background: transparent;
+    color: $color-highlighted;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vh;
+    z-index: 99;
+
+    &:hover {
+      cursor: pointer;
+      border-color: $color-highlighted;
+    }
+  }
+
+  .bgr__infos {
+    position: absolute;
+    bottom: 40px;
+
+    .bgr__infos__time input {
+      accent-color: $color-highlighted;
+      transform: scale(1.2);
+    }
+
+    .bgr__infos__text output:hover {
+      color: $color-highlighted;
+      cursor: pointer;
+    }
+
+    .bgr__infos__notice {
+      color: red;
+      font-weight: bold;
+    }
+
+    .bgr__infos__penalty:after {
+      content: '$';
+    }
+  }
+
+  .bgr__table {
+    margin-top: 20px;
+    padding: 5px;
+    height: 75vh;
+
+    .active {
+      border-color: $color-highlighted;
+      color: $color-highlighted;
+    }
+
+    .bgr__table__link {
+      color: $color-text;
+      text-decoration: none;
+      margin-top: 15px;
+      display: inline-block;
+
+      &:hover {
+        color: $color-highlighted;
+      }
+    }
+
+    .bgr__table__nav .nav__item {
+      border: solid 1px $color-text;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+      display: inline-block;
+      padding: 2px 5px;
+      margin: 0 1px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.active {
+        border-color: $color-highlighted;
+        color: $color-highlighted;
+      }
+    }
+
+    .bgr__table__header {
+      margin: 10px 15px 10px 5px;
+      padding: 5px;
+
+      .table__item {
+        display: inline-block;
+        text-align: center;
+
+        &.paragraph {
+          width: 5%;
+        }
+
+        &.text {
+          width: 40%;
+        }
+
+        &.info {
+          width: 20%;
+        }
+
+        &.exclusion, &.penalty, &.wanted {
+          width: 10%;
+        }
+      }
+    }
+
+    .bgr__table__content {
+      max-height: calc(100% - 100px);
+      overflow-y: scroll;
+
+      .table__row {
+        margin: 10px 5px;
+        padding: 5px;
+        border: solid 1px $color-text;
+
+        &.active {
+          border-color: $color-highlighted;
+          color: $color-highlighted;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &.selected {
+          color: $color-highlighted;
+          border-color: $color-highlighted;
+        }
+
+        .table__item {
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+
+          &.paragraph {
+            width: 5%;
+          }
+
+          &.text {
+            width: 40%;
+          }
+
+          &.info {
+            width: 20%;
+          }
+
+          &.exclusion, &.penalty, &.wanted {
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+}

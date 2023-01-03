@@ -1,0 +1,902 @@
+{
+  "StGB": {
+    "link": "https://gta5grand.com/forum/threads/247814/",
+    "paragraphs": [
+      {
+        "paragraph": "§18",
+        "text": "Hausfriedensbruch",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§19",
+        "text": "Landfriedensbruch",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§20",
+        "text": "Beleidigung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§21",
+        "text": "Üble Nachrede",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§22",
+        "text": "Sachbeschädigung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§23",
+        "text": "Körperverletzung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§24",
+        "text": "Gefährliche Körperverletzung",
+        "info": "",
+        "exclusion": "§23",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "15000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§28",
+        "text": "Freiheitsberaubung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "20000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§29",
+        "text": "Geiselnahme",
+        "info": "",
+        "exclusion": "§28",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§31",
+        "text": "Bildung von bewaffneten Gruppierungen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "45000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§32",
+        "text": "Erpressung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§33",
+        "text": "Diebstahl",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "12000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§33.2",
+        "text": "Diebstahl schwerer Fall",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§33a",
+        "text": "Hehlerei",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§36",
+        "text": "Raub",
+        "info": "",
+        "exclusion": "§33, §35",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "25000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§37",
+        "text": "Schwerer Raub",
+        "info": "",
+        "exclusion": "§33, §35, §36",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "30000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§38",
+        "text": "Betrug",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§39",
+        "text": "Urkundenfälschung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§40",
+        "text": "Glücksspiel",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "20000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§41",
+        "text": "Dienstvergehen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "nach Sachlage",
+        "wanted": -1
+      },
+      {
+        "paragraph": "§41.2",
+        "text": "schweres Dienstvergehen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "40000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§42",
+        "text": "Unerlaubtes Entfernen vom Unfallort",
+        "info": "Entzug Führerschein",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§43",
+        "text": "Unterlassene Hilfeleistung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "15000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§44",
+        "text": "Verbotenes Kraftfahrzeugrennen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§45",
+        "text": "Gefährdung des Straßenverkehrs",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§46",
+        "text": "Gefährlicher Eingriff in den Straßenverkehr",
+        "info": "Entzug Führerschein",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§48",
+        "text": "Herbeiführen einer Explosion",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "nach Sachlage",
+        "wanted": -1
+      },
+      {
+        "paragraph": "§49",
+        "text": "Mord",
+        "info": "",
+        "exclusion": "§50",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "150000",
+        "wanted": 5
+      },
+      {
+        "paragraph": "§50",
+        "text": "Totschlag",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "25000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§51",
+        "text": "Falsche Verdächtigung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "10000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§52",
+        "text": "Falsche Uneidliche Aussage",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§53",
+        "text": "Meineid",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§54",
+        "text": "Öffentliche Aufforderung zu Straftaten",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "nach Sachlage",
+        "wanted": 13
+      },
+      {
+        "paragraph": "§55",
+        "text": "Widerstand gegen Vollstreckungsbeamte",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§56",
+        "text": "Tätlicher Angriff auf Vollstreckungsbeamte",
+        "info": "",
+        "exclusion": "§23/§24",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§57",
+        "text": "Gefangenenbefreiung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "35000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§58",
+        "text": "Gefangenenmeuterei",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§59",
+        "text": "Straftaten gegen die Umwelt",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "nach Sachlage",
+        "wanted": 13
+      },
+      {
+        "paragraph": "§60",
+        "text": "Illegale Gegegnstände",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "25000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§61",
+        "text": "Sexuelle Belästigung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "50000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§62",
+        "text": "Sicherheitsbereiche",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 5
+      },
+      {
+        "paragraph": "§63",
+        "text": "Amtsanmaßung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§64",
+        "text": "Amtsmissbrauch",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "50000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§65",
+        "text": "Brandstiftung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§66",
+        "text": "Nötigung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "20000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§67",
+        "text": "Bedrohung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "15000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§68",
+        "text": "Missbrauch von Notrufen und Beeinträchtigung von Nothilfemitteln",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "4500",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§69",
+        "text": "Vermummung in der Öffentlichkeit",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "45000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§70",
+        "text": "Illegaler Vertrieb von medizinischen Gütern",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§70 II",
+        "text": "Illegaler Vertrieb von medizinischen Gütern (schwerer Fall)",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "60000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§71",
+        "text": "Bestechung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "90000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§71a",
+        "text": "Bestechungsannahme",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "50000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§72",
+        "text": "Tierquälerei",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§73",
+        "text": "Hochverrat gegen das Government",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "50000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§74",
+        "text": "Steuerhinterziehung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§75",
+        "text": "Strafvereitelung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "75000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§76",
+        "text": "Stalking",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "75000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§77",
+        "text": "Behinderung von Ermittlungsverfahren",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "70000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§78",
+        "text": "Verstoß gegen das Vertragsrecht",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "nach Sachlage",
+        "wanted": -1
+      },
+      {
+        "paragraph": "§79",
+        "text": "Vertragsbruch",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "25000",
+        "wanted": 1
+      },
+      {
+        "paragraph": "§79.2",
+        "text": "Vertragsbruch schwerer Fall",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "",
+        "penalty": "75000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§80",
+        "text": "Erregung öffentlichen Ärgernisses",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§81",
+        "text": "Belästigung",
+        "info": "Antragsdelikt",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§82",
+        "text": "Besitz von staatlichen Eigentum",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "50000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§83",
+        "text": "Terrorissmus",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "300000",
+        "wanted": 5
+      }
+    ]
+  },
+  "WaffG": {
+    "link": "https://gta5grand.com/forum/threads/247827/",
+    "paragraphs": [
+      {
+        "paragraph": "§13",
+        "text": "Unerlaubte Waffenherstellung",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "100000",
+        "wanted": 5
+      },
+      {
+        "paragraph": "§14",
+        "text": "Tragen einer Waffe ohne Lizenz",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "35000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§15",
+        "text": "Besitz illegaler Handfeuerwaffen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "1",
+        "penalty": "40000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§16",
+        "text": "Besitz illegaler Langwaffen/Munition",
+        "info": "",
+        "exclusion": "§17",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "55000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§17",
+        "text": "Besitz einer illegalen Waffe ohne Seriennummer",
+        "info": "",
+        "exclusion": "§16",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "65000",
+        "wanted": 4
+      },
+      {
+        "paragraph": "§17a",
+        "text": "Besitz einer lizenzpflichtigen Waffe ohne Seriennummer",
+        "info": "Waffe konfiszieren",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§18",
+        "text": "Unerlaubter Waffenhandel",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "125000",
+        "wanted": 5
+      }
+    ]
+  },
+  "BtMG": {
+    "link": "https://gta5grand.com/forum/threads/247835/",
+    "paragraphs": [
+      {
+        "paragraph": "§4",
+        "text": "Anbau von Betäubungsmitteln",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "45000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§5",
+        "text": "Besitz von Betäubungsmitteln",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 2
+      },
+      {
+        "paragraph": "§6",
+        "text": "Handel von Betäubungsmitteln",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "50000",
+        "wanted": 3
+      },
+      {
+        "paragraph": "§7",
+        "text": "Organisierter Handel von Betäubungsmitteln",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "1",
+        "fib": "1",
+        "penalty": "100000",
+        "wanted": 5
+      }
+    ]
+  },
+  "StVO": {
+    "link": "https://gta5grand.com/forum/threads/247817/",
+    "paragraphs": [
+      {
+        "paragraph": "§2 (2)",
+        "text": "Verstoß Rechtsfahrgebot",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "7500",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§2 (3)",
+        "text": "Fahren abseits der Straße",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "12500",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§6 (1)",
+        "text": "Mit unberechtigtem Fahrzeug auf Highway fahren",
+        "info": "verlassen des Highways",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "25000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§6 (5)",
+        "text": "Wenden/Rückwärtsfahren auf dem Highway",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§7 (2)",
+        "text": "Fahren auf der Gegenfahrbahn",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§8.1",
+        "text": "Überschreiten der Höchstgeschwindigkeit 10-29km/h",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§8.2",
+        "text": "Überschreiten der Höchstgeschwindigkeit 30-49km/h",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "35000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§8.3",
+        "text": "Überschreiten der Höchstgeschwindigkeit 50-99km/h",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "45000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§8.4",
+        "text": "Überschreiten der Höchstgeschwindigkeit 100km/h+",
+        "info": "Entzug Führerschein",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "70000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§11",
+        "text": "Unzulässiges Halten oder Parken",
+        "info": "Fahrzeughalter trägt Abschleppkosten",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "30000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§14",
+        "text": "Missachten von Stoppschildern/-markierungen",
+        "info": "",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "20000",
+        "wanted": 0
+      },
+      {
+        "paragraph": "§20",
+        "text": "Keine KFZ-Registrierung",
+        "info": "Fahrzeughalter trägt Abschleppkosten",
+        "exclusion": "",
+        "lawyer": "",
+        "fib": "",
+        "penalty": "25000",
+        "wanted": 0
+      }
+    ]
+  }
+}

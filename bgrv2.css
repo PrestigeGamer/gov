@@ -1,0 +1,198 @@
+.bgr__wrapper {
+  background-color: #161618;
+  color: white;
+  margin: -8px;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  overflow: hidden;
+  font-family: Arial, serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.bgr__wrapper ::-webkit-scrollbar {
+  width: 10px;
+}
+.bgr__wrapper ::-webkit-scrollbar-track {
+  background: #222222;
+  border-radius: 5px;
+}
+.bgr__wrapper ::-webkit-scrollbar-thumb {
+  background: #ee4d2e;
+  border-radius: 5px;
+}
+.bgr__wrapper .hidden {
+  display: none;
+}
+.bgr__wrapper .bgr__searchbar {
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+}
+.bgr__wrapper .bgr__searchbar span {
+  height: 30px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 19px;
+  color: white;
+  background-color: #ee4d2e;
+  margin-right: -5px;
+  border-color: #ee4d2e;
+  display: inline-block;
+  aspect-ratio: 1/1;
+  text-align: center;
+}
+.bgr__wrapper .bgr__searchbar input {
+  height: 25px;
+  font-size: 20px;
+}
+.bgr__wrapper .bgr__searchbar input[type=text] {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 10px;
+}
+.bgr__wrapper .bgr__searchbar input[type=text]:focus-visible {
+  outline: none;
+}
+.bgr__wrapper .bgr__copy__notification {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 20px 20px;
+  border: solid #ee4d2e 1px;
+  border-radius: 20px;
+  background: #ee4d2e;
+  color: #161618;
+  font-weight: bold;
+  transition: top ease-in-out 0.2s;
+}
+.bgr__wrapper .bgr__unselect {
+  border: solid 2px darkgray;
+  background: transparent;
+  color: #ee4d2e;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5vh;
+  right: 5vh;
+  z-index: 99;
+}
+.bgr__wrapper .bgr__unselect:hover {
+  cursor: pointer;
+  border-color: #ee4d2e;
+}
+.bgr__wrapper .bgr__infos {
+  position: absolute;
+  bottom: 40px;
+}
+.bgr__wrapper .bgr__infos .bgr__infos__time input {
+  accent-color: #ee4d2e;
+  transform: scale(1.2);
+}
+.bgr__wrapper .bgr__infos .bgr__infos__text output:hover {
+  color: #ee4d2e;
+  cursor: pointer;
+}
+.bgr__wrapper .bgr__infos .bgr__infos__notice {
+  color: red;
+  font-weight: bold;
+}
+.bgr__wrapper .bgr__infos .bgr__infos__penalty:after {
+  content: "$";
+}
+.bgr__wrapper .bgr__table {
+  margin-top: 20px;
+  padding: 5px;
+  height: 75vh;
+}
+.bgr__wrapper .bgr__table .active {
+  border-color: #ee4d2e;
+  color: #ee4d2e;
+}
+.bgr__wrapper .bgr__table .bgr__table__link {
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+}
+.bgr__wrapper .bgr__table .bgr__table__link:hover {
+  color: #ee4d2e;
+}
+.bgr__wrapper .bgr__table .bgr__table__nav .nav__item {
+  border: solid 1px white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 0 1px;
+}
+.bgr__wrapper .bgr__table .bgr__table__nav .nav__item:hover {
+  cursor: pointer;
+}
+.bgr__wrapper .bgr__table .bgr__table__nav .nav__item.active {
+  border-color: #ee4d2e;
+  color: #ee4d2e;
+}
+.bgr__wrapper .bgr__table .bgr__table__header {
+  margin: 10px 15px 10px 5px;
+  padding: 5px;
+}
+.bgr__wrapper .bgr__table .bgr__table__header .table__item {
+  display: inline-block;
+  text-align: center;
+}
+.bgr__wrapper .bgr__table .bgr__table__header .table__item.paragraph {
+  width: 5%;
+}
+.bgr__wrapper .bgr__table .bgr__table__header .table__item.text {
+  width: 40%;
+}
+.bgr__wrapper .bgr__table .bgr__table__header .table__item.info {
+  width: 20%;
+}
+.bgr__wrapper .bgr__table .bgr__table__header .table__item.exclusion, .bgr__wrapper .bgr__table .bgr__table__header .table__item.penalty, .bgr__wrapper .bgr__table .bgr__table__header .table__item.wanted {
+  width: 10%;
+}
+.bgr__wrapper .bgr__table .bgr__table__content {
+  max-height: calc(100% - 100px);
+  overflow-y: scroll;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row {
+  margin: 10px 5px;
+  padding: 5px;
+  border: solid 1px white;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row.active {
+  border-color: #ee4d2e;
+  color: #ee4d2e;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row:hover {
+  cursor: pointer;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row.selected {
+  color: #ee4d2e;
+  border-color: #ee4d2e;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.paragraph {
+  width: 5%;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.text {
+  width: 40%;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.info {
+  width: 20%;
+}
+.bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.exclusion, .bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.penalty, .bgr__wrapper .bgr__table .bgr__table__content .table__row .table__item.wanted {
+  width: 10%;
+}
+
+/*# sourceMappingURL=bgrv2.css.map */

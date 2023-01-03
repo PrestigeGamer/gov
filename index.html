@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bußgeldrechner</title>
+    <link rel="stylesheet" href="bgrv2.css">
+    <script src="bgrv2.js"></script>
+    <link rel="icon" type="image" href="favicon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload="init()">
+<div class="bgr__wrapper">
+<!--    <div class="settings">-->
+<!--        <i class="fa-solid fa-gear"></i>-->
+<!--        <div class="settings__flyout"></div>-->
+<!--    </div>-->
+    <span style="font-size: 25px; font-weight: bold">Bußgeldrechner</span>
+    <div class="bgr__searchbar">
+        <span>&#x1F50D;&#xFE0E;</span>
+        <input type="text" name="searchtext" id="s1">
+    </div>
+    <div class="bgr__copy__notification">Fahndungstext kopiert!</div>
+
+    <div class="bgr__table">
+        <div class="bgr__table__nav"></div>
+        <a class="bgr__table__link" href="#" target="_blank">zum Gesetzbuch &#8594;</a>
+        <div class="bgr__table__header">
+            <div class="table__item paragraph">
+                Paragraph
+            </div>
+            <div class="table__item text">
+                Gesetzestext
+            </div>
+            <div class="table__item info">
+                Info
+            </div>
+            <div class="table__item exclusion">
+                Ausschließung
+            </div>
+            <div class="table__item penalty">
+                Geldstrafe
+            </div>
+            <div class="table__item wanted">
+                Haftstrafe
+            </div>
+        </div>
+    </div>
+
+    <div class="bgr__unselect">Zurücksetzen</div>
+    <div class="bgr__infos">
+        <span class="bgr__infos__notice"></span>
+        <div class="bgr__infos__penalty">Bußgeld:
+            <output></output>
+        </div>
+        <div class="bgr__infos__wanteds">Fahndungslevel:
+            <output></output>
+        </div>
+        <div class="bgr__infos__text">Fahndungstext:
+            <output></output>
+        </div>
+        <div class="bgr__infos__time">
+            <label>
+                Uhrzeit hinzufügen
+                <input type="checkbox"/>
+            </label>
+        </div>
+    </div>
+</div>
+</body>
+</html>
